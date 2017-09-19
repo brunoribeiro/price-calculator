@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<component name = "test.bribeiro.price-calculator">
+    <service><provide interface="bribeiro.test.service.PriceCalculatorService"/></service>
+    <implementation class = "bribeiro.test.service.PriceCalculatorServiceImpl"></implementation>
+</component>

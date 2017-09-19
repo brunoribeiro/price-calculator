@@ -1,0 +1,12 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Vendor: bribeiro.test
+Bundle-Version: 1.0.0
+Bundle-Name: price-calculator-core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: bribeiro.test.price-calculator-core;singleton=true
+Nuxeo-Component: OSGI-INF/pricecalculator-operation-contrib.xml,
+  OSGI-INF/test.bribeiro.price-calculator.xml,
+ OSGI-INF/bribeiro.testproduct-adapter-contrib.xml
+Nuxeo-WebModule: bribeiro.test.web.MyWebApp

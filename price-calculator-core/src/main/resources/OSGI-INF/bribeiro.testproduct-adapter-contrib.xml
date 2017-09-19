@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<component name="bribeiro.test.adapters.product">
+
+  <extension target="org.nuxeo.ecm.core.api.DocumentAdapterService" point="adapters">
+    <adapter class="bribeiro.test.ProductAdapter" factory="bribeiro.test.ProductAdapterFactory"/>
+  </extension>
+
+</component>
